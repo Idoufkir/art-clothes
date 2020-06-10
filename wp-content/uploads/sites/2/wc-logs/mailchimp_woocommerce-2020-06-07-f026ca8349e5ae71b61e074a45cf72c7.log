@@ -1,0 +1,36 @@
+2020-06-07T01:19:54+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 59
+2020-06-07T01:20:09+00:00 NOTICE product_submit.success :: addStoreProduct :: #59
+2020-06-07T01:37:24+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 59
+2020-06-07T01:37:34+00:00 NOTICE product_submit.success :: updateStoreProduct :: #59
+2020-06-07T02:09:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 101
+2020-06-07T02:09:27+00:00 NOTICE product_submit.success :: addStoreProduct :: #101
+2020-06-07T07:28:10+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 101
+2020-06-07T07:28:29+00:00 NOTICE product_submit.success :: updateStoreProduct :: #101
+2020-06-07T07:28:37+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 59
+2020-06-07T07:29:07+00:00 NOTICE product_submit.success :: updateStoreProduct :: #59
+2020-06-07T08:00:44+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50377
+2020-06-07T08:01:17+00:00 NOTICE product_submit.success :: addStoreProduct :: #50377
+2020-06-07T08:15:36+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50389
+2020-06-07T08:16:12+00:00 NOTICE product_submit.success :: addStoreProduct :: #50389
+2020-06-07T08:16:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50389
+2020-06-07T08:17:14+00:00 NOTICE product_submit.success :: updateStoreProduct :: #50389
+2020-06-07T08:30:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50396
+2020-06-07T08:31:09+00:00 NOTICE product_submit.success :: addStoreProduct :: #50396
+2020-06-07T08:35:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50400
+2020-06-07T08:36:14+00:00 NOTICE product_submit.success :: addStoreProduct :: #50400
+2020-06-07T08:39:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 50405
+2020-06-07T08:39:33+00:00 NOTICE promo_code_submit.success :: #50405 :: code: bjv4ghaa
+2020-06-07T17:13:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 50405
+2020-06-07T17:14:08+00:00 NOTICE promo_code_submit.success :: #50405 :: code: bjv4ghaa
+2020-06-07T17:26:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50407
+2020-06-07T17:27:10+00:00 NOTICE product_submit.success :: addStoreProduct :: #50407
+2020-06-07T17:50:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 50416
+2020-06-07T17:52:08+00:00 ERROR order_submit.error :: addStoreOrder :: #50416 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost/wordpress/art-clothes/my-account/view-order/50416/</p> on 1817 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-06-07T18:17:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50437
+2020-06-07T18:18:01+00:00 NOTICE product_submit.success :: addStoreProduct :: #50437
+2020-06-07T18:33:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50442
+2020-06-07T18:34:44+00:00 NOTICE product_submit.success :: addStoreProduct :: #50442
+2020-06-07T18:36:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50442
+2020-06-07T18:36:57+00:00 NOTICE product_submit.success :: updateStoreProduct :: #50442
+2020-06-07T18:37:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50445
+2020-06-07T18:38:21+00:00 NOTICE product_submit.success :: addStoreProduct :: #50445

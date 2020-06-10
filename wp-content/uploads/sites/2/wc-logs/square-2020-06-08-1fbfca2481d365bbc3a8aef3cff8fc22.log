@@ -1,0 +1,7 @@
+06-08-2020 @ 16:37:30 - Starting step cycle: import_products
+06-08-2020 @ 16:37:31 - Imported Products Count: 0
+06-08-2020 @ 16:37:31 - Completed job step: import_products
+06-08-2020 @ 16:37:31 - Completed step cycle: import_products (0.84s)
+06-08-2020 @ 16:37:33 - Starting step cycle: import_inventory
+06-08-2020 @ 16:37:35 - Failed step cycle: import_inventory (1.87s) - [NOT_FOUND] This merchant does not have a location with the ID ``.
+06-08-2020 @ 16:37:35 - [NOT_FOUND] This merchant does not have a location with the ID ``.

@@ -1,0 +1,68 @@
+2020-06-08T17:27:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 50416
+2020-06-08T17:27:21+00:00 NOTICE debug :: Order ID 50416 was checkout-draft and is now pending :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-06-08T17:27:25+00:00 NOTICE debug :: Order ID 50416 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-06-08T17:28:57+00:00 NOTICE system.debug :: order 50416 is in on-hold status, and is being skipped for now.
+2020-06-08T17:29:32+00:00 NOTICE debug :: Order ID 50416 was on-hold and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-06-08T17:29:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 50416
+2020-06-08T17:31:11+00:00 ERROR order_submit.error :: addStoreOrder :: #50416 :: Error Code 400 :: <p>order_url: That is not a valid URL: https://localhost/wordpress/art-clothes/my-account/view-order/50416/</p> on 1817 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2020-06-08T17:39:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 50469
+2020-06-08T17:39:57+00:00 NOTICE debug :: Order ID 50469 was checkout-draft and is now pending :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-06-08T17:40:01+00:00 NOTICE debug :: Order ID 50469 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-06-08T18:15:52+00:00 NOTICE system.debug :: order 50469 is in on-hold status, and is being skipped for now.
+2020-06-08T18:48:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50478
+2020-06-08T18:49:37+00:00 NOTICE product_submit.success :: addStoreProduct :: #50478
+2020-06-08T18:58:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50484
+2020-06-08T18:59:36+00:00 NOTICE product_submit.success :: addStoreProduct :: #50484
+2020-06-08T19:03:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50488
+2020-06-08T19:04:26+00:00 NOTICE product_submit.success :: addStoreProduct :: #50488
+2020-06-08T19:05:51+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50490
+2020-06-08T19:06:13+00:00 NOTICE product_submit.success :: addStoreProduct :: #50490
+2020-06-08T19:16:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 50492
+2020-06-08T19:17:10+00:00 NOTICE product_submit.success :: addStoreProduct :: #50492
+2020-06-08T21:01:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 50498
+2020-06-08T21:02:18+00:00 NOTICE debug :: Order ID 50498 was checkout-draft and is now pending :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-06-08T21:02:22+00:00 NOTICE debug :: Order ID 50498 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-06-08T21:04:17+00:00 NOTICE system.debug :: order 50498 is in on-hold status, and is being skipped for now.
+2020-06-08T21:05:12+00:00 NOTICE debug :: Order ID 50498 was on-hold and is now cancelled :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-06-08T21:05:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 50498
+2020-06-08T21:07:22+00:00 NOTICE order_sumbit :: #50498 has a financial status of cancelled and was skipped.
