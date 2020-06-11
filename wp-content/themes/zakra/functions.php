@@ -314,7 +314,3 @@ if ( ! function_exists( 'zakra_stretched_style_migrate' ) ) :
 	}
 endif;
 add_action( 'after_setup_theme', 'zakra_stretched_style_migrate' );
-	
-	// disable wp-emoji script and CSS
-remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
-remove_action( 'wp_print_styles', 'print_emoji_styles' );

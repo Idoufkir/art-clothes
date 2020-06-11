@@ -1,17 +1,6 @@
 /
 /?product_shipping_class=t_shirt
 /?product_shipping_class=t_shirt/page/1
-/?size-chart=mens-jeans-trousers-size-chart
-/?size-chart=mens-shirts-size-chart
-/?size-chart=mens-shirts-size-chart-copy0
-/?size-chart=mens-shoes-size-chart
-/?size-chart=mens-t-shirts-polo-shirts-size-chart
-/?size-chart=mens-waistcoats-size-chart
-/?size-chart=womens-cloth-size-chart
-/?size-chart=womens-dress-size-chart
-/?size-chart=womens-jeans-and-jeggings-size-chart
-/?size-chart=womens-shoes-size-chart
-/?size-chart=womens-t-shirt-tops-size-chart
 /?wp_block=untitled-reusable-block
 /author-sitemap.xml
 /blocks/page/1
@@ -48,6 +37,7 @@
 /order-tracking/
 /page-sitemap.xml
 /page/1
+/page/2
 /pages/page/1
 /post-sitemap.xml
 /products/page/1

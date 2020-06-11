@@ -1,4 +1,0 @@
-2020-06-10T05:37:44+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id c4d68efc5fec2b03ca2ca8a2aeb305fe
-2020-06-10T05:38:12+00:00 NOTICE abandoned_cart.success :: email: mustafa.idoufkir@gmail.com :: checkout_url: https://localhost/wordpress/art-clothes/checkout/?mc_cart_id=c4d68efc5fec2b03ca2ca8a2aeb305fe
-2020-06-10T05:38:13+00:00 NOTICE cart.member.updated :: Updated mustafa.idoufkir@gmail.com language to en
-2020-06-10T05:53:50+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 50543

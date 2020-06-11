@@ -1,8 +1,0 @@
-2020-06-08T19:06:19+00:00 CRITICAL Uncaught Error: Class 'Automattic\WooCommerce\Admin\API\OnboardingPlugins' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Notes_Install_JP_And_WCS_Plugins.php:121
-Stack trace:
-#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Notes_Install_JP_And_WCS_Plugins.php(110): Automattic\WooCommerce\Admin\Notes\WC_Admin_Notes_Install_JP_And_WCS_Plugins->install_and_activate_plugin('jetpack')
-#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Notes\WC_Admin_Notes_Install_JP_And_WCS_Plugins->install_jp_and_wcs_plugins(Object(Automattic\WooCommerce\Admin\Notes\WC_Admin_Note))
-#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
-#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
-#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\NoteAct in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Notes_Install_JP_And_WCS_Plugins.php on line 121
-
