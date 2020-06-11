@@ -1,0 +1,130 @@
+.ushop-wrap a,.ushop-wrap h4,.ushop-wrap .panel-title{
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.ushop-wrap .row,.ushop-wrap .accordion-wrap{
+  margin: 0 -15px;
+  overflow: hidden;
+}
+.ushop-wrap small,.ushop-wrap h2>label{
+  font-weight: normal;
+}
+.ushop-wrap h2>label{
+  margin-bottom: 10px;
+  display: block;
+}
+.ushop-wrap h5{
+  font-size: 1.1em;
+}
+.ushop-wrap input[type=number].tiny-text {
+  width: 60px;
+}
+.ushop-wrap h5 small{
+  font-size: .9em;
+}
+.ushop-wrap .full-width{
+  width: 100%;
+}
+.ushop-wrap .col-3,.ushop-wrap .col-12{
+  width: 30%;
+  float: left;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+.ushop-wrap .col-12{
+  width: 98%;
+}
+.ushop-wrap .accordion-fix{
+  margin-top: 50px;
+}
+.ushop-wrap .accordion-fix .panel-title{
+  font-size: 1.3em;
+}
+.ushop-wrap .accordion-fix .panel h4 {
+  font-size: 1.2em;
+  margin: 1.33em 0;
+}
+.ushop-wrap .accordion-fix .panel-title{
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding: 15px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  margin: 0 0 20px;
+  outline: none;
+}
+.ushop-wrap .accordion-fix .panel-title,.ushop-wrap .accordion-fix  .panel-title:hover {
+  background: #f4b738;
+  border-color: #f4b738;
+  color: #fff;
+}
+.ushop-wrap .content {
+  padding: 1em 2.2em 2.7em;
+  border-top: 0;
+  overflow: auto;
+}
+.ushop-wrap .panel {
+  background: #ffffff;
+  color: #333333;
+}
+.ushop-wrap .ui-helper-reset {
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+.ushop-wrap .chosen-container{
+  margin-top: 15px;
+}
+.widget-inside .ushop-wrap .content{
+  display: block;
+}
+.widget-inside .ushop-wrap .col-3{
+  width: 100%;
+  padding: 0;
+}
+.ushop-wrap .widget-inside h5{
+  margin: 0 0 15px;
+}
+.widget-inside .ushop-wrap .accordion-fix .panel-title {
+  background: #f4b738;
+  border-color: #f4b738;
+  color: #fff;
+}
+.widget-inside .ushop-wrap .accordion-contents{
+  margin-bottom: 20px;
+}
+.ushop-wrap .accordion-contents{
+  padding: 0 15px;
+}
+.heading-services{
+  margin-bottom: 0;
+}
+@media(max-width:767px){
+  .ushop-wrap .col-3{
+    width: 100%;
+  }
+}
+.timagazine_author_image_btn{
+  margin-top:5px;
+}
+.ushop-custom_media_image{
+  margin:0;
+  padding:0;
+  max-width:100px;
+  float:left;
+  display:inline-block;
+}
+.ushop-author-link-label{
+  margin-bottom: -4px;
+}
+.pro-section,#accordion-section-ushop_get_pro{
+  display: block !important;
+}
