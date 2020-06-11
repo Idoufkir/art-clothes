@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress' );
+define( 'DB_NAME', 'art-clothes_db' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'LKNs3<kXNGj)O-Uw/(&#eD}$r<aPuA0g*BfyUo@MWEvX@~|jr8}MSq:k:($N-6{t' );
-define( 'SECURE_AUTH_KEY',  '&*]RaKE]i/Wx(,H-bvaQ*mNHK:4lVR-_4ghcJ( 4V`bcYhz4u5}Z;Cx/u tPooO=' );
-define( 'LOGGED_IN_KEY',    '.^{DbVRHdrRFGp%3cw!^` sO@BP=-Nm71oPS>m7A@?G;`1sqZXy 3Ggw9K<n,E4J' );
-define( 'NONCE_KEY',        '=w!rqWuSyn+!?X&HN<SBNV?MSWFwASYqc7=9KQj0`89a)qwAM[5;G@NLrO4aSADw' );
-define( 'AUTH_SALT',        'MoK|_~|MF<S+KpktCn4f,7?!e~yfIFLptA.r}nRejH6KKW+xRI:0s#GCOYxQmP-P' );
-define( 'SECURE_AUTH_SALT', 'Lj2(Z`i4sC HTv:oa)`x{JpzJ.r,Z#Zeh<T(^i.1EzTuXp&@C,mpngsP#55jnzA8' );
-define( 'LOGGED_IN_SALT',   'PG[c1{IajkM}E0!Z|rB&WqW/!So!Myc@k1rJgAQ2G#X,,](H-hq7!(bG=lI?I^E`' );
-define( 'NONCE_SALT',       ')./ll@|*u@@opSDkj$U_T.,7q^s?R.0Ix(,ajsnh;qaG1tVg.]h|> U[H9ky2l6~' );
+define( 'AUTH_KEY',         'q/!v41q?WE-4zF{DcJ68X_KC+v@_cD F$<zBe;K<cqn)#%.r|Y{Ws~ZZ`*4<@g]~' );
+define( 'SECURE_AUTH_KEY',  'Ko#,=p}Ez.XK:Vh.7ApF?k.<W=BN6^l)>prmA(>;*|<m/[|A,54L~[sNOmeouz0j' );
+define( 'LOGGED_IN_KEY',    'lX.)qCI}d;Lzv`_wZ!Jp9xfL-kJzQOxxs:P=k]bxh8{ogtUf}=DB>x2$H]G1TJAq' );
+define( 'NONCE_KEY',        '>lf*gqMUzrT:I,tWw{I5]:[&&%nZ%Jpi>jR97erb./t7 B@ElG1x5K5mQq,pqp5U' );
+define( 'AUTH_SALT',        '1^!aT64v&_4flTH:+U=$Ep2!B),xW#B.68&[Nn6sq*Mei* YB2x(MD<y<n@#DL}m' );
+define( 'SECURE_AUTH_SALT', 'hZ}GQ@&&4zG|wRXnc`|lPfTKiikt-C j!QbQ[XV%WA>EVqYNg=,~vx?6$`0ixTZ(' );
+define( 'LOGGED_IN_SALT',   '3wir&LQT/@Ih|Y*T28;,qeWHT]FUr-k5wrqKgpI^wMbGL;RcWm<g{63yh.8>FRh!' );
+define( 'NONCE_SALT',       'k[j8I ~/5}w*.ctOvPq/qN7gPl~1Gw[DMaCy@nW(LaL1pA!umsLv!:-V*H|PW ]?' );
 
 /**#@-*/
 
@@ -79,17 +79,6 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
-
-/* To allow WordPress Multisite */
-define( 'WP_ALLOW_MULTISITE', true );
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'localhost');
-define('PATH_CURRENT_SITE', '/wordpress/');
-define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
-
-
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
@@ -100,3 +89,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 
+@ini_set( 'upload_max_filesize' , '128M' );
+@ini_set( 'post_max_size', '128M');
+@ini_set( 'memory_limit', '256M' );
+@ini_set( 'max_execution_time', '90000' );
+@ini_set( 'max_input_time', '300' );
